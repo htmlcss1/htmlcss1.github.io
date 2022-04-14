@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:antiquewhite;
+}
+.wrapper{
+	clear:both;
+}
+.banner ul{
+	display:flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	align-items: center;
+	width: 60%;
+	z-index: 1;
+	
+}
+.banner ul li{
+	list-style-type: none;
+	color: black;
+}
+.banner .inlusstrationbentrai{
+	width: 20%;
+	position: absolute;
+	left: 5%;
+	top: 5%;
+}
+
+.banner .inlusstrationbenphai{
+	width: 40%;
+	position: absolute;
+	right: 5%;
+	top: 80%;
+}
+.contentchinh{
+	width: 50%;
+	position: absolute;
+	top:60%;
+	left: 25%;
+	clear: both;
+	
+}
+.contentchinh h1{
+	padding-bottom: 5%;
+	
+}
+.contentchinh .nut{
+position: static;
+width: 200px;
+height: 50px;
+left: 0px;
+top: 0px;
+	
+
+}
+
+.so1{
+background: rgba(255, 255, 255, 0.3);
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+backdrop-filter: blur(23.1513px);
+	border-radius: 30px;
+}
+.so2{
+	background: linear-gradient(107.21deg, #C961DE 24.43%, #2954A3 68.95%);
+box-shadow: 0px 10px 20px rgba(8, 12, 33, 0.15);
+border-radius: 30px;
+}
+.hinhmoi img{
+	width: 10%;
+}
